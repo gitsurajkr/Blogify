@@ -7,7 +7,7 @@ app.use(express.json());
 
 app.use(cors(
     {
-        origin: ['ablogify.netlify.app', 'http://localhost:3002', ], 
+        origin: ['https://ablogify.netlify.app', 'http://localhost:3002', ], 
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
         credentials: true,
     }
