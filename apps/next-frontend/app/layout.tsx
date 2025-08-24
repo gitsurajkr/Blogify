@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BLOGIFY",
+  title: "blogify - A Modern Blogging Platform",
   description: "A modern blogging platform to share your ideas, stories, and experiences with the world.",
   icons: {
     icon: "/blog.png"
