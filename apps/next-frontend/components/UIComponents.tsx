@@ -29,7 +29,7 @@ export const EmptyState = () => {
           NO QUESTS FOUND!
         </h3>
         <p className="text-gray-400 font-mono text-sm mb-6">
-          Your search didn't uncover any epic adventures. Try different quest parameters!
+          Your search didn&apos;t uncover any epic adventures. Try different quest parameters!
         </p>
         <button className="bg-green-500 hover:bg-green-400 text-black px-6 py-3 border-4 border-green-700 hover:border-black transition-all duration-100 font-black font-mono text-sm">
           🔄 RESET FILTERS

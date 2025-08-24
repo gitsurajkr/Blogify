@@ -155,6 +155,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gray-200" style={{ imageRendering: 'pixelated' }}>
+     
       <Header />
       <Hero />
 
