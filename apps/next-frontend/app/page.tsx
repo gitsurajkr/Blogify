@@ -24,12 +24,12 @@ interface Blog {
 }
 
 // API Base URL (you can move this to environment variables)
-// const API_BASE_URL = 'http://localhost:3002/api/v1';
+const API_BASE_URL = 'https://blogify-l8cl.onrender.com';
 
 // API Functions
 const fetchBlogs = async (): Promise<Blog[]> => {
   try {
-    const response = await axios.get(`http://localhost:3000/api/v1/blogs/get-blogs`, {
+    const response = await axios.get(`${API_BASE_URL}/api/v1/blogs/get-blogs`, {
       headers: {
         'Content-Type': 'application/json'
       }

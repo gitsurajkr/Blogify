@@ -60,7 +60,7 @@ export const Header = () => {
     setIsLoading(true);
     
     try {
-      const response = await axios.post('http://localhost:3000/api/v1/blogs/create-blog', formData, {
+      const response = await axios.post('https://blogify-l8cl.onrender.com/api/v1/blogs/create-blog', formData, {
         headers: {
           'Content-Type': 'application/json'
         }
